@@ -1,0 +1,327 @@
+
+@font-face {
+    font-family: "Open Sans";
+    src: url('../lib/font/open-sans/OpenSans-Light.ttf');
+}
+
+@font-face {
+    font-family: "Myriad Pro";
+    src: url('../lib/font/myriad-pro/Myriad-Pro-Light-Italic.ttf');
+}
+
+h4{
+    font-size:20px;
+}
+
+small{
+    font-size: 16px;
+}
+
+#logot:hover{
+    opacity:0.2;
+}
+
+body{
+   /* font-family: Roboto;*/
+    font-family: "Open Sans"/*,"Helvetica Neue",Helvetica,Arial,sans-serif*/;
+    color: #78909c;
+    min-height: 100vh;
+    font-weight: 300;
+    font-size:20px;
+}
+
+body p{
+    font-family : "Myriad Pro";
+    font-size:26px;
+    font-weight: 300;
+    font-style : italic;
+    line-height : 32px;
+}
+
+ul {
+    font-family : "Myriad Pro";
+    font-size:26px;
+    font-weight: 300;
+    /*font-style : italic;*/
+    line-height : 32px;
+}
+
+.background{
+
+padding: 5px;
+    background-color: white;
+    opacity: 0.95;
+    color: black;
+    font-weight: 200;
+}
+
+.grdtexte{
+    font-size: 30px;
+    font-weight: 200;
+}
+
+body h1,h2,h3,h4,h5,h6{
+
+    color:#4caf50;
+    text-decoration: none;
+    text-align:center;
+    /*color: #212121;*/
+    font-weight: 300;
+
+}
+
+
+#page {
+    color: white;
+    padding-top: 10%;
+    text-align: center;
+}
+
+#page h3 {
+    font-size: 60px;
+    color: white;
+}
+
+#page h4 {
+    font-size: 30px;
+    color: white;
+
+}
+
+.b{
+    font-weight: 500;
+
+}
+
+.green{
+    color:#4caf50;
+}
+
+ .grey {
+    color: #78909c;
+}
+
+ .midhr{
+     padding-left: 25%;
+     padding-right: 25%;
+     background-color:#4caf50;
+     height: 2px;
+ }
+
+ h1{
+     font-size: 46px;
+ }
+
+ .h1bigger{
+     font-size:50px;
+     font-weight: 400;
+ }
+
+ h2{
+     font-size:31px;
+ }
+
+h3{
+    font-size:30px;
+}
+
+
+a:hover{
+
+    color: white;
+    text-decoration: none;
+}
+
+button:hover{
+    border-radius:0px;
+    border:1px solid #4caf50;
+    background-color:#4caf50;
+    color:white;
+
+    font-weight: 200;
+}
+
+.black{
+    color:black;
+}
+
+button{
+
+    border-radius:0px;
+    border:1px solid #4caf50;
+    background-color: white;
+    color:#4caf50;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 200;
+}
+
+.margetop{
+    padding-top:50px;
+}
+
+.margebottom{
+    padding-bottom:80px;
+}
+
+
+
+.modal-content{
+    border:none;
+    border-radius: 0px;
+
+}
+
+/* Utils */
+.center_text{
+    text-align:center;
+}
+
+.center_img{
+    display:block; margin-left:auto; margin-right:auto;
+}
+
+.stripped{
+    background-color: rgb(246,246,251);
+}
+/* Utils */
+
+
+/*  navabar */
+nav a {
+    font-size:20px;
+    color:white;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+#navbar{
+    margin-top: 2%;
+    text-align: right;
+}
+#princ {
+
+    /*height:9vh;*/
+    position:fixed;
+    z-index:1;
+    width:100%;
+
+    /* background-color: #4caf50;
+     background-color: #ffff00;
+     background-color: #03A9F4;*/
+
+}
+/*  navabar */
+
+/*  First page */
+
+
+
+/*  First page */
+
+
+
+
+
+/* Footer */
+
+/* Footer */
+
+
+
+/* intercalaire */
+#inter1 {
+    position:relative;
+    background: url("../pics/1.jpg");
+    height:100vh;
+    min-height: 350px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#inter2 {
+    position:relative;
+    background: url(../pics/2.jpg);
+    height: 350px;
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+#inter3 {
+    position:relative;
+    background: url(../pics/valeur/1.jpg);
+    height: 100vh;
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+#inter4 {
+    position:relative;
+    background: url(../pics/valeur/2.jpg);
+    height: 100vh;
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+#inter5 {
+    position:relative;
+    background: url(../pics/valeur/3.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+#inter6 {
+    position:relative;
+    background: url(../pics/valeur/4.jpg);
+    height: 100vh;
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+#inter7 {
+    position:relative;
+    background: url(../pics/valeur/5.jpg);
+    height: 100vh;
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+#inter8 {
+    position:relative;
+    background: url(../pics/valeur/6.jpg);
+    height: 100vh;
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+
