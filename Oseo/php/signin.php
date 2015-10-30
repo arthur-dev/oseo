@@ -18,4 +18,4 @@ fclose($monfichier);
 
 $_SESSION['msg']="Votre pré-inscription à bien été prise en compte";
 
-header('Location: ../index.html');
+header('Location: ../index.php');
