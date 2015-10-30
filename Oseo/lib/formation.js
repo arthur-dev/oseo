@@ -150,5 +150,5 @@ $('#testjeubtn').click(function(){
 });
 
 $('#logot').click(function(){
-    document.location.href="../index.html"
+    document.location.href="../index.php"
 });
