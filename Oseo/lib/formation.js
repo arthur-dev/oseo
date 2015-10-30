@@ -26,6 +26,12 @@ $(window).scroll(function(){
 });
 
 
+$('#btntarif').click(function(){
+    $('#tarif').modal('show');
+});
+$('#signin').click(function(){
+    $('#tarif').modal('show');
+});
 
 
 

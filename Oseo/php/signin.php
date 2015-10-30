@@ -1,19 +1,13 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: arthur
- * Date: 29/10/15
- * Time: 15:17
- */
 session_start();
 
-
-$monfichier = fopen('contact.txt', 'a+');
+$monfichier = fopen('signin.txt', 'a+');
 
 fputs($monfichier, 'nom: '.$_POST['name']."\n");
 fputs($monfichier, 'telephone: '.$_POST['tel']."\n");
 fputs($monfichier, 'email: '.$_POST['email']."\n");
-fputs($monfichier, 'question: '.$_POST['ask']."\n");
+
+fputs($monfichier, 'date: '.$_POST['date']."\n");
 fputs($monfichier, '    '."\n");
 fputs($monfichier, '   --  '."\n");
 fputs($monfichier, '     '."\n");
@@ -21,8 +15,7 @@ fputs($monfichier, '     '."\n");
 fclose($monfichier);
 
 
-$_SESSION['msg']="Votre question à bien été envoyé";
+
+$_SESSION['msg']="Votre pré-inscription à bien été prise en compte";
 
 header('Location: ../index.html');
-
-

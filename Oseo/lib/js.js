@@ -203,6 +203,3 @@ $('#no').click(function(){
 
 });
 
-$('#logot').click(function(){
-    document.location.href="../index.html"
-});

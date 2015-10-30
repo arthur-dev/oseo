@@ -22,7 +22,7 @@ small{
 }
 
 body{
-   /* font-family: Roboto;*/
+
     font-family: "Open Sans"/*,"Helvetica Neue",Helvetica,Arial,sans-serif*/;
     color: #78909c;
     min-height: 100vh;
@@ -67,6 +67,7 @@ body h1,h2,h3,h4,h5,h6{
     text-align:center;
     /*color: #212121;*/
     font-weight: 300;
+    line-height:  100%;
 
 }
 
@@ -80,6 +81,7 @@ body h1,h2,h3,h4,h5,h6{
 #page h3 {
     font-size: 60px;
     color: white;
+
 }
 
 #page h4 {
