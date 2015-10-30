@@ -23,6 +23,6 @@ fclose($monfichier);
 
 $_SESSION['msg']="Votre question à bien été envoyé";
 
-header('Location: ../index.html');
+header('Location: ../index.php');
 
 
