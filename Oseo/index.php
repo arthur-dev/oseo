@@ -237,7 +237,7 @@
                 <div class="row" >
 
                     <div class="col-sm-3" style=" padding-left: 0px;">
-                        <img src="pics/elementaccueil/chrono-01.png"  style="width:100%; padding-right: 0px; ">
+                        <img class="unvisible" src="pics/elementaccueil/chrono-01.png"  style="width:100%; padding-right: 0px; ">
                     </div>
                     <div class="col-sm-6">
                         <p class="center_text">
@@ -249,7 +249,7 @@
                         </p>
                     </div>
                     <div class="col-sm-3" style=" padding-right: 0px; padding-left: 0px;">
-                        <img src="pics/elementaccueil/cible-01.png" style="width:100%;  position:relative; padding-top:30%;">
+                        <img class="unvisible" src="pics/elementaccueil/cible-01.png" style="width:100%;  position:relative; padding-top:30%;">
                     </div>
 
                 </div>
@@ -348,7 +348,7 @@
                     <div class="row" >
 
                         <div class="col-sm-3" style=" padding-left: 0px;">
-                            <img src="pics/elementaccueil/brain_light-01-01.png"  style="width:100%; padding-right: 0px; ">
+                            <img class="unvisible" src="pics/elementaccueil/brain_light-01-01.png"  style="width:100%; padding-right: 0px; ">
                         </div>
                         <div class="col-sm-6">
                             <p class="center_text">
@@ -364,7 +364,7 @@
                             </p>
                         </div>
                         <div class="col-sm-3" style=" padding-right: 0px; padding-left: 0px;">
-                            <img src="pics/elementaccueil/expert_30-01.png" style="width:100%;  position:relative; padding-top:30%;">
+                            <img class="unvisible" src="pics/elementaccueil/expert_30-01.png" style="width:100%;  position:relative; padding-top:30%;">
                         </div>
 
                     </div>
@@ -409,14 +409,14 @@
                         <img src="pics/Cupcakes.jpg" style="width:100%;">
                     </div>
                     <div class="col-sm-6 ">
-                        <h3 >Des rassemblements Chaleureux et conviviaux </h3>
+                        <h3 >Des rassemblements chaleureux et conviviaux </h3>
                         <br><br>
                         <p class="center_text">
-                        Parce que nous sommes convaincu qu’une <span class="green">bonne atmosphere</span><br> permet d'<span class="green">apprendre</span> mieux,
+                        Parce que nous sommes convaincus qu’une <span class="green">bonne atmosphere</span><br> permet d'<span class="green">apprendre</span> mieux,
                        <br> <br><br><br>
                         Nous mettons un point d’honneur à vous accueillir avec le <span class="green">sourire</span> !
-                        <br><br><br><br>En <span class="green">bonus</span>, vous goûterez aux réalisations de notre amie
-                        <br><br>
+
+
                         </p>
 
 
