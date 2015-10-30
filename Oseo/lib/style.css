@@ -337,5 +337,10 @@ nav a {
 
         /*visibility:visible;*/
 
+}
 
+@media screen and (min-width: 10px) and (max-width: 960px) {
+    #princ{
+        display:none;
+    }
 }
